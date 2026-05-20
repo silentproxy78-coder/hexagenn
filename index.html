@@ -1,3 +1,9 @@
-<div class="ad-container">
-  <script src="https://pl29504325.effectivecpmnetwork.com/80/9b/7a/809b7adacd0fd8232749669b17087d5b.js"></script>
-</div>
+<div id="ad-slot"></div>
+
+<script>
+  const s = document.createElement("script");
+  s.src = "https://pl29504325.effectivecpmnetwork.com/80/9b/7a/809b7adacd0fd8232749669b17087d5b.js";
+  s.onload = () => console.log("Ad loaded");
+  s.onerror = () => console.log("Ad failed");
+  document.getElementById("ad-slot").appendChild(s);
+</script>
